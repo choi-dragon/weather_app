@@ -1,0 +1,47 @@
+body{
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.main-content{
+    flex-grow: 1;
+    position: relative;
+}
+footer{
+    color: #888888;
+    border-top: solid 1px #eeeeee;
+    margin-top: 16px;
+    padding: 16px 0;
+}
+.head{
+    margin: 16px 0px 48px 0px;
+}
+h2{
+    font-size: 64px;
+    margin-bottom: 16px;
+}
+.head a{
+    color: #888888;
+    text-decoration: none;
+}
+.head a:hover{
+    background-color: #333333;
+
+}
+#location-1{
+    margin: 10px auto;
+    position: absolute;
+    left: 50px;
+    top: 300px;
+}
+#weather{
+    margin: 10px auto;
+    position: absolute;
+    left: 50px;
+    top: 350px;
+}

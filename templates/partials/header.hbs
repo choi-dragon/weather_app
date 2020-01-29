@@ -1,0 +1,12 @@
+<!--this partial hbs files can be called in other hbs.
+this allows you to generalise across all hbs files without copying and pasting 
+the same code across-->
+<!--This therefore does not need to be in standard html format but only the elements-->
+<!--Any hbs file that contains "{{>header}}" will have below codes showing up on the browser-->
+{{!-- <h1>{{title}}</h1> --}}
+<div>
+    <a href="/about">About</a>
+    <a href="/help">Help</a>
+    <a href="#">Weather</a>
+</div>
+{{!-- <p>Created by {{name}}</p> --}}
