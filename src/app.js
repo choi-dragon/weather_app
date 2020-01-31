@@ -1,4 +1,4 @@
-
+debugger
 const express =require('express')// this brings in the express module or function. 
 const app=express() // now app has express function assign this allows to utilise the express function. 
 const path=require('path') // this is one of the built in node modules

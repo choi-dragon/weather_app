@@ -34,14 +34,8 @@ h2{
 
 }
 #location-1{
-    margin: 10px auto;
-    position: absolute;
-    left: 50px;
-    top: 300px;
+    margin: 20px auto;
 }
 #weather{
-    margin: 10px auto;
-    position: absolute;
-    left: 50px;
-    top: 350px;
+    margin: 20px auto;
 }
