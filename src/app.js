@@ -5,7 +5,7 @@ const path=require('path') // this is one of the built in node modules
 const hbs=require('hbs')
 const geocode=require('./geocode')
 const weather=require('./weather')
-
+const port = process.env.PORT || 3000 // process.env.PORT set the port to heroku and if fails, to 3000
 console.log(path.join(__dirname,'../public')) // dirname allows you to get the directory of the folder you are currently in.
 // const publicpath=path.join(__dirname,'../public')//path.join allows you to navigate to the folder you want and amend the directory.
 const publicPath=path.join(__dirname,'../public')
@@ -110,6 +110,6 @@ app.get('*',(req,res)=>{
 
 
 
-app.listen(3000,()=>{// this finally sets the server
-    console.log('Server is up on port 3000.')
+app.listen(port,()=>{// this finally sets the server
+    console.log('Server is up on port '+port)
 })

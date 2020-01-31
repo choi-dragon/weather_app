@@ -14,7 +14,7 @@ searchWeather.addEventListener('submit',(e)=>{ //addEventListener makes the form
 
     const location=search.value // search.value is the value obtained from the input
 
-    fetch('http://localhost:3000/weather?address='+location).then((response)=>{ // the API or web addres here is what you have made and only adds the location so that it fetch the weather for the location that has been received from the input. 
+    fetch('/weather?address='+location).then((response)=>{ // the API or web addres here is what you have made and only adds the location so that it fetch the weather for the location that has been received from the input. 
     response.json().then((data)=>{ // this .json() function makes the data from API an json object so it can be called as an object. 
         if(data.error){
             LocationDATA.textContent=data.error
